@@ -17,8 +17,8 @@ namespace TerrainGeneratorTutorial0._1
         private VertexBuffer vb = null;
         private IndexBuffer ib = null;
 
-        private static int terWidth = 64;
-        private static int terLength = 64;
+        private const int terWidth = 64;
+        private const int terLength = 64;
         private float moveSpeed = 0.2f;
         private float turnSpeed = 0.02f;
         private float rotY = 0; // between 0 and 2*Math.PI (=360°)
